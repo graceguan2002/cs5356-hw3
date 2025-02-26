@@ -146,7 +146,7 @@ details ul {
   
 #dogs {
     display: grid;
-    text-align: center;
+    place-items: center;
 }
 
 footer {
