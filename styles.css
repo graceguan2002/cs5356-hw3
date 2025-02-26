@@ -143,12 +143,12 @@ details ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 
 #dog-img {
     max-width: 50%;
     height: auto;
-    border-radius: 100%;
 }
 
 
