@@ -140,12 +140,15 @@ details ul {
 }
 
 #dogs {
+    width: 100%;
     text-align: center;
+    padding: 10px;
+    box-sizing: border-box; 
 }
 
 #dog-img {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 50%;
+    height: auto;
 }
 
 
