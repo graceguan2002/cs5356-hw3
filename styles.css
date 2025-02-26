@@ -140,17 +140,15 @@ details ul {
 }
 
 #dog-img {
-    max-width: 50%;
+    max-width: 300px;
     height: auto;
     display: block;
 }
   
 #dogs {
-    display: flex;
     justify-content: center;
     text-align: center;
     max-width: 100%;
-    overflow: hidden;
 }
 
 footer {
@@ -200,6 +198,7 @@ footer {
     }
 
     #dog-img {
-        max-width: 50%;
+        max-width: 300px;
+        height: auto;
     }
 }
