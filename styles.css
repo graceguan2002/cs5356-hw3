@@ -86,11 +86,11 @@ h3 {
 
 .columns {
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     gap: 20px;
     padding: 10px;
     text-align: center;
-    flex-wrap: wrap; 
 }
 
 .column {
@@ -102,8 +102,9 @@ h3 {
 
 .column-img {
     width: 100%; 
+    height: auto;
     border-radius: 10px; 
-    align-items: center;
+    text-align: center;
 }
 
 .button {
@@ -142,6 +143,14 @@ details ul {
     list-style-position: inside; 
 }
 
+#dog-images {
+    text-align: center;
+}
+
+#dog-image {
+    max-width: 50%;
+    height: auto;
+}
 
 footer {
     display: flex;
