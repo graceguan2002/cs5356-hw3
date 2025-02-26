@@ -139,14 +139,15 @@ details ul {
     list-style-position: inside; 
 }
 
-#dog-img {
-    max-width: 300px;
-    height: auto;
-}
-  
 #dogs {
     text-align: center;
 }
+
+#dog-img {
+    max-width: 200px;
+    height: auto;
+}
+
 
 footer {
     display: flex;
