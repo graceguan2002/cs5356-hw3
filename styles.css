@@ -96,11 +96,13 @@ h3 {
     flex: 1;
     max-width: 300px;
     margin-bottom: 20px;
+    padding: 10px;
 }
 
 .column-img {
     width: 100%; 
     border-radius: 10px; 
+    align-items: center;
 }
 
 .button {
