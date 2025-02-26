@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Grace's website </title>
+        <meta name="viewport" content="width=device-width"/>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#cover">Home</a></li>
+                    <li><a href="#introduction">About Me</a></li>
+                    <li><a href="#things-i-like">Things I Like</a></li>
+                    <li><a href="#dog-images">Dogs</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="cover">
+                <h1> Welcome to my personal website!</h1>
+                <a href="#introduction" class="arrow">&#11206;</a>
+            </section>
+
+            <section id="introduction">
+                <h2>About me</h2>
+                <p>Hi! I'm Jingzhi(Grace) Guan. I'm currently studying at Cornell Tech. This is my personal website. To learn more about my professional experience, you can visit <a href="https://www.linkedin.com/in/graceguan2002/">my LinkedIn Page</a> .</p>
+                <img src="assets/profile.jpg" alt="Profile Picture" id="profile-img">
+            </section>
+
+            <section id="things-i-like">
+                <h2>Things I Like</h2>
+                <div class="columns">
+                    <div class="column">
+                        <h3>Music</h3>
+                        <img src="assets/Imagine Dragons.jpg" alt="Music" class="column-img">
+                        <p>Imagine Dragons is my favoriate band. Their songs walked me through obstacles I encountered and gave me energy. My favoriate song is Believer.</p>
+                        <a href="https://shop.imaginedragonsmusic.com/" class="button" target="_blank">Explore Music</a>
+                        <details>
+                            <summary>My Playlist</summary>
+                            <ul>
+                                <li>Believer</li>
+                                <li>On Top Of The World</li>
+                                <li>Natural</li>
+                                <li>Bones</li>
+                                <li>Demons</li>
+                            </ul>
+                        </details>
+                    </div>
+                    <div class="column">
+                        <h3>Manga</h3>
+                        <img src="assets/One Piece.jpg" alt="Anime" class="column-img">
+                        <p>I have been reading One Piece mangas since elementary school. The core ideas in the manga - Friendship, Efforts, and Victory - have accompanied me as I grew up.</p>
+                        <a href="https://one-piece.com/index.html" class="button" target="_blank">Read Manga</a>
+                    </div>
+                    <div class="column">
+                        <h3>Theater</h3>
+                        <img src="assets/Lion King.jpg" alt="Theater" class="column-img">
+                        <p>The Lion King is what sparked my love for Broadway shows. Every time when Circle of Life plays, tears well up in my eyes. I am always impressed by the costumes and performances in this play.</p>
+                        <a href="https://www.lionking.com/" class="button" target="_blank">Get Tickets</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="dog-images">
+                <h2>As a Dog Lover...</h2>
+                <div id="dogs">
+                    <p>Here is a random dog photo I fetched from Dog API. </p>
+                    <img id="dog-image" alt="Random Dog Photo">
+                </div>
+            </section>
+            <script src="script.js"></script>
+        </main>
+
+        <footer>
+            <p>&copy; Jingzhi Guan. All rights reserved.</p>
+        </footer>
+
+    </body>
+</html>

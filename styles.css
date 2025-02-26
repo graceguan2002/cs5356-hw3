@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Consolas, monospace;
+    line-height: 2;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    background-color:black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color:white;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+#cover {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 95vh;
+    background-color: black; 
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 20px; 
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    animation: bounce 1.5s infinite; 
+}
+
+.arrow:hover {
+    color: gray; 
+}
+
+@keyframes bounce {
+    0%, 100% {transform: translateY(0);}
+    50% {transform: translateY(10px);}
+}
+
+#profile-img {
+    width: 600px; 
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    display: block;
+    margin: 0 auto;
+}
+
+#introduction {
+    height: 100vh;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+    flex-wrap: wrap; 
+}
+
+.column {
+    flex: 1;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.column-img {
+    width: 100%; 
+    border-radius: 10px; 
+}
+
+.button {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+}
+  
+summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+}
+  
+details[open] {
+    padding: 0.5em;
+}
+  
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+}  
+
+details ul {
+    list-style-position: inside; 
+}
+
+#dog-img {
+    max-width: 50%;
+    height: auto;
+}
+  
+#dogs {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px; 
+    }
+
+    .columns {
+        gap: 10px;
+    }
+
+    .column {
+        flex: 1 1 100%; 
+    }
+
+    #profile-img {
+        width: 300px; 
+        height: 300px;
+    }
+}
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .column {
+        flex: 1 1 100%; 
+        text-align: center;
+    }
+
+    .column-img {
+        width: 80%; 
+    }
+}
