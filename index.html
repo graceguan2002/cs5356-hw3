@@ -4,6 +4,7 @@
         <meta charset="utf-8"/>
         <title>Grace's website </title>
         <meta name="viewport" content="width=device-width"/>
+        <!--EC2: meta elements for link previews-->
         <meta name="description" content="Welcome to my personal website! Explore my bio, my interests, and random dog photos.">
         <link rel="stylesheet" href="styles.css">
 
@@ -13,6 +14,7 @@
         <meta property="og:url" content="https://graceguan2002.github.io/cs5356-hw3/">
         <meta property="og:type" content="website">
     
+        <!--EC3: analytic tracking-->
         <script data-goatcounter="https://cs5356-hw3.goatcounter.com/count"
                 async src="//gc.zgo.at/count.js"></script>
     </head>
@@ -32,12 +34,14 @@
         <main>
             <section id="cover">
                 <h1> Welcome to my personal website!</h1>
+                <!--new CSS property: I tried to add an arrow that can bounce here. Using animation and set the action, time, and number of times can achieve this effect. When you click on it, it will guide you to the following content. 
+                EC1: When your mouse hovers on it, it changes to gray to reflect your mouse movement.-->
                 <a href="#introduction" class="arrow">&#11206;</a>
             </section>
 
             <section id="introduction">
                 <h2>About me</h2>
-                <p>Hi! I'm Jingzhi(Grace) Guan. I'm currently studying at Cornell Tech. This is my personal website. To learn more about my professional experience, you can visit <a href="https://www.linkedin.com/in/graceguan2002/">my LinkedIn Page</a> .</p>
+                <p>Hi! I'm Jingzhi(Grace) Guan. I'm currently studying at Cornell Tech. This is my personal website. To learn more about my professional experience, you can visit <a href="https://www.linkedin.com/in/graceguan2002/">my LinkedIn Page</a>.</p>
                 <img src="assets/profile.jpg" alt="Profile Picture" id="profile-img">
             </section>
 
@@ -49,6 +53,7 @@
                         <img src="assets/Imagine Dragons.jpg" alt="Music" class="column-img">
                         <p>Imagine Dragons is my favoriate band. Their songs walked me through obstacles I encountered and gave me energy. My favoriate song is Believer.</p>
                         <a href="https://shop.imaginedragonsmusic.com/" class="button" target="_blank">Explore Music</a>
+                        <!--new HTML element: Details. When you click on it, it will show more information.-->
                         <details>
                             <summary>My Playlist</summary>
                             <ul>
